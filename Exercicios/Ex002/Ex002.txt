@@ -1,0 +1,39 @@
+Ex002
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta nome="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parágrafos</title>
+</head>
+<body>
+<h1>Parágrafos e quebras de Linha</h1>
+<hr>
+<p>Meu nome é Yago, estou aprendendo Html, <br> com o professor Gustavo Guanabara. <br> Vai Corinthians!</p> 
+<p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.</p> <!-- LESS THAN / GREATER THAN -->
+<p> Se precisar quebrar o texto em algum lugar específico <br> como esse, você pode usar a tag &lt;br&gt;. </p>
+<p>Vamos adicionar alguns símbolos especiais:
+&reg;
+&copy:
+&trade;
+</p> 
+<p>Agora vamos adicionar os emoji:
+ &#x1F60A </p> <!-- &#x = usado para emoji --> 
+</body>
+</html> 
+
+
+&lt; = < (tags em Inglês) 
+&gt; = > 
+
+DICA: Você quer uma referência com vários símbolos e seus
+códigos, pois acesse o W3Schools, na área de Misc Symbols. 
+https://www.w3schools.com/charsets/ref_utf_symbols.asp
+
+
+Outra coisa que você pode adicionar às suas páginas são os emojis, onde cada
+símbolo possui um código Unicode. Para uma pesquisa mais precisa e atualizada,
+acesse o site da emojipedia.org.
+
+

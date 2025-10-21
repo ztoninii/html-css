@@ -1,0 +1,43 @@
+Modelos de Caixas
+
+Altura (height) 
+Largura (width)
+border (borda)
+paddinh (acossamento) 
+margin (margem) 
+outline (contorno) 
+
+
+Tipos de Caixas 
+
+
+box-leval - quebra de linhas 
+<div>
+<h1>-<h6>
+<p>
+<main>
+<header>
+<nav>
+<article>
+<aside>
+<footer>
+<form>
+<video>
+
+
+
+
+
+
+inline-level - não quebra linhas 
+<span>
+<a>
+<code>
+<small>
+<Strong>
+<em>
+<sup>-<sub>
+<label>
+<button>
+<input>
+<select>

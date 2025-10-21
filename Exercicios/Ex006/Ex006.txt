@@ -1,0 +1,91 @@
+Ex006
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1"> <!-- 1,A,a,I,i-->
+        <li>Acordar</li>
+        <li>Ligar para o Matheus</li>
+        <li>Tomar café</li>
+        <li>Escovar ods dentes</li>
+        <li>Ir para a Faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir treinar</li>
+        <li>Ir para o Trabalhando</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+
+    <h2>Listas não Ordenadas </h2>
+    <ul type="">   <!-- disc,circle,square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+</body>
+</html> 
+
+
+
+
+ <h2>Minhas linguagens favoritas </h2>
+    <ol> 
+        <li>Novas 
+        <ol type="a" start="5">
+            <li>PHP
+            <li>Python
+            <li>JavaScript
+            <li>Kotlin
+        </ol>
+    </ol>
+
+    <h2>Meus games favoritos</h2>
+    <ol>
+        <li>PlayStation
+        <ul type="square">
+            <li>Uncharted
+            <li>Assassin's creed
+        </ul>
+        <li>PC
+        <ul>
+            <li>CS
+            <li>Valorant
+        </ul>
+
+    </ol>
+
+
+<h2>Lista de Definiçãos</h2>
+    <dl>
+        <dt>HTML </dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do desigm de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,133 @@
+014 - 3
+
+
+Caixas com vértices arredondados 
+
+-  border-radius:
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Caixas Arredondadas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>  
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">        
+            <p>Esportes Política Tecnologia </p>
+        </section>
+        <section id="noticias">        
+            <article>  
+                    <h2>Notícia sobre o Brasil</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia inteiro nunc posuere. Ut hendrerit sempre vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>   
+                <aside>                
+                    <p>Artigo escrito por José da Silva </p>
+                </aside>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Yago Tonini</p>
+    </footer>
+
+    <div id="bola">   </div>
+</body>
+</html> 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CSS
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.459);
+}
+
+nav{
+    background-color: rgb(102,102,102);
+    padding: 3px ;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.411);
+}
+
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+
+}
+
+article > aside {
+    background-color: rgb(165,165, 165);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+
+}
+
+footer > p {
+    margin: 0px;
+}
+
+div#bola {
+    height: 100px; 
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Bordas decoradas - https://youtu.be/n0rjAs_Im4w
+ 

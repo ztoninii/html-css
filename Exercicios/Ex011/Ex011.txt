@@ -1,0 +1,25 @@
+Ex011
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Gradiente em CSS</title>
+    <style>    
+        * { /* Configuracões globais das CSS */
+            height: 100%; 
+        }
+
+        body { 
+            background-image: linear-gradient(to bottom, #7A0BFD, #FF00CC, #FE008D, #FF2D25, #FFC501);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradientes</h1>
+</body>
+</html> 

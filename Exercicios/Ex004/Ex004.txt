@@ -1,0 +1,40 @@
+Ex004
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Hierarquia de Títulos</title>
+</head>
+<body>
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <p>lorem</p>
+    <h3>Justificação da Temática</h3>
+    <p>lorem</p>
+    <h3>Caráter Excecional do caso de Estudo</h3>
+    <p>lorem</p>
+    <h3>Perguntas de Partida e Objetivos de Investigação</h3>
+    <p>lorem</p>
+    <h3>Metodologia de Investigação</h3>
+    <p>lorem</p>
+    <h3>Caráter Excecional do caso de Estudo</h3>
+    <p>lorem</p>
+    <h4>Etapas de Investigação</h4>
+    <p>lorem</p>
+    <h4>Instrumentos de análise e fontes de informação</h4>
+    <p>lorem</p>
+    <h2>Ordenamento do Território em Portugal</h2>
+    <h3>Os Instrumentos de Gestão do Território</h3>
+    <p>lorem</p>
+    <h4>Os Instrumentos de planeamento território</h4>
+    <p>lorem</p>
+    <h4>Os regimes Territórias </h4>
+    <p>lorem</p>
+    <p></p> 
+</body>
+</html> 

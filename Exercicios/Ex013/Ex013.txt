@@ -1,0 +1,86 @@
+Ex013
+
+
+Usando id em CSS / Diferença entre id e class
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Seletores Personalizados #</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1 id= "principal">Criando Sites com HTML e CSS </h1>
+    <h1>Aprendendo HTML</h1>
+    <h2 class= "basico">HTML básico </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi <span class="basico">pretium Tellus</span> duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.</p>
+    <h2 class="avancado">HTML avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.</p>
+    <h1>Aprendendo CSS</h1>
+    <h2 class="basico">CSS básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.</p>
+    <h2 class="avancado destaque">CSS avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.</p>
+    
+
+</body>
+</html> 
+
+
+!CSS! 
+
+@charset "UTF-8";
+
+/* 
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+
+body{
+    background-color: rgb(1, 59, 136);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: rgb(110, 147, 248);;
+
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+h2{
+    color: rgb(174, 193, 243);;
+
+}
+
+p{
+    color: white;
+}
+
+.basico{
+    color: green;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(209, 212, 36, 0.596);
+    font-weight: bold;
+}
+
+
+
+
+
+

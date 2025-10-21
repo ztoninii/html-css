@@ -1,0 +1,142 @@
+12-1
+
+Detectador de Fontes 
+- whatfontis.com
+- fontsquirreal.com
+- myfonts.com
+
+https://fonts.google.com/ - Fontes 
+
+!HTML!
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Trabalhando com fontes </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia inteiro nunc posuere. Ut hendrerit sempre vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.</p>
+
+</body>
+</html> 
+
+
+!CSS!
+ 
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+h1, h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+!HTML!
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Tamanho de Fonte e suas medidas</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<h1>Trabalhando com fontes </h1>
+    	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia inteiro nunc posuere. Ut hendrerit sempre vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium Tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.</p>
+
+</body>
+</html> 
+
+
+!CSS!
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas 
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas 
+    em, ex, rem, vw, vc, %
+    16px geralmente = 1em 
+    */
+    font-size: 1em;
+}
+
+h1, h2{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+!Peso, estilo e shorthand!
+
+CSS- 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas 
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas  
+    em, ex, rem, vw, vc, %
+    16px geralmente = 1em 
+    */
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+
+    /* shorthand font
+    - font-style -> font-weight -> font-size -> font-family */
+    font: italic bolder 3em Arial, Helvetica, sans-serif;
+
+    /* lighter normal bold bolder */
+    /* weight - peso
+       width - largura 
+       height - altura 
+    */
+}
+
+
+Como usar fontes externas 
+
+
+@font-face {
+    font-family: "love";
+    src: url("fonts/love larry ttf.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+   /*
+        tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-att (Apple Advanced)
+        - svg 
+    */
+
+ h1{
+        font-family: "love", Times, serif
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+
+
+
+
+
+
+
+

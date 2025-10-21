@@ -1,0 +1,113 @@
+Ex008
+
+!Imagem!
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+<h1>Imagem dinâmica </h1>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador. </p>
+
+<picture>
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">    
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+</picture>
+</body>
+</html> 
+
+
+
+!Áudio!
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Yarin Primak - Special Vibe.mp3" controls autoplay > 
+		
+		<!-- MP3 WAV OGG --> </audio>
+
+    <audio preload="metadata" controls autoplay loop>   
+    <source src="midia/Yarin Primak - Special Vibe.mp3" type="audio/mpeg">   
+    <source src="midia/Yarin Primak - Special Vibe.ogg" type="audio/ogg">   
+    <source src="midia/Yarin Primak - Special Vibe.wav" type="audio/wav">   
+    <p>Infelilizmente seu navegador não consegue reproduzir áudio. <a 	href="midia/Yarin Primak - Special Vibe.mp3">Clique aqui para baixar o 	arquivo MP3</a></p>
+    </audio>	
+
+</body>
+</html> 
+
+
+!Vídeos! <!-- MP4, M4V, WEBM e OGV -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+<h1>Vídeos com HTML5 </h1>
+<p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+<video src="midia/Mar 30Fps.mp4" width="500" controls></video>
+
+<video width="500" poster="imagens/html5-200.webp" controls>
+    <source src="midia/mar_30fps.mp4" type="video/mp4">
+    <source src="midia/Mar 30Fps.mp4" type="video/mp4">
+    <source src="midia/Mar 30Fps.webm" type="video/webm">
+    <p>Seu navegador não tem compatibilidade cpm a reproduçãi de vídeos.</p>
+
+</video>
+
+</body>
+
+
+</html> 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+<h1>Vídeos com HTML5 </h1>
+<p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+<video src="midia/Mar 30Fps.mp4" width="560" controls></video>
+
+<video width="560" poster="imagens/html5-200.webp" controls> <!-- MP4, M4V, WEBM e OGV -->
+    <source src="midia/mar_30fps.mp4" type="video/mp4">
+    <source src="midia/Mar 30Fps.mp4" type="video/mp4">
+    <source src="midia/Mar 30Fps.webm" type="video/webm">
+    <p>Seu navegador não tem compatibilidade com a reprodução de vídeos.</p>
+
+</video>
+
+<h1>Inserindo vídeos do YouTube </h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=fzWcojvDsZZ-WXls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h1>Inserindo vídeos do Vimeo</h1> 
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/7636697?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Animation Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+</body>
+</html> 
+
