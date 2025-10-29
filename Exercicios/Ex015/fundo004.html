@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta nome="viewport" content="width=device-width, initial-scale=1.0">
-<title> Document </title>
+<title> Fundo fixo de tela </title>
 <style> 
 
 /* background-size: contain; - usado para mostrar 100% da imagem sem cortar ela. */
@@ -12,18 +12,26 @@
 
 body {
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url(imagens/lago-com-ponte-de-madeira.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;  pode ser também "-scroll" */
 
+    /* Shorthand - background
+        color > image > position > repeat > {size} > attachment
+    
+    */
+
+    background: black url(imagens/lago-com-ponte-de-madeira.jpg) center center no-repeat fixed ; 
+    background-size: cover;
 }
 
 
 main {
      background-color: white;
-     width: 400px;
+     max-width: 400px;
      padding: 10px;
      margin: auto;
      border: 1px solid black;
