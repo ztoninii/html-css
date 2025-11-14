@@ -11,8 +11,13 @@
             height: 0px;
         }
 
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
         img{
-            width: 100vw; 
+            width: 100vw;
              
         }
 
@@ -27,5 +32,6 @@
         }
 
         a:hover{
-            background-color: rgba(39, 38, 38, 0.7);
+            background-color: rgba(65, 55, 55, 0.76);
+            border-radius: 25px;
         }
