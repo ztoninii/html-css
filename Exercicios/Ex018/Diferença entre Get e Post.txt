@@ -1,0 +1,17 @@
+Diferença entre Get e Post
+
+Use GET quando:
+
+Você precisa recuperar informações (ex: carregar uma página, exibir um produto, fazer uma pesquisa).
+
+Os dados não são sensíveis e podem aparecer na URL.
+
+Você quer que a página possa ser favoritada ou que o usuário possa usar o botão Voltar sem problemas.
+
+Use POST quando:
+
+Você precisa enviar dados para criar ou modificar um recurso no servidor (ex: enviar um formulário de login/cadastro, fazer um pedido, postar um comentário).
+
+Os dados são sensíveis (senhas, informações pessoais).
+
+Você precisa enviar grandes volumes de dados (ex: um formulário longo ou um arquivo).
