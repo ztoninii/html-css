@@ -22,7 +22,7 @@ h1{
     padding: 10px;
 }
 
-/* ... Outras regras (h1) ... */
+
 
 /* Aparelho em pé (portrait) */
 @media screen and (orientation: portrait) {
