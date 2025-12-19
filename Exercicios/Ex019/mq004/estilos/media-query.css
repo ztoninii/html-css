@@ -19,21 +19,19 @@ Desktop médio: 1280px até 1536px
 Grandes telas: acima de 1536px
 */
 
-@media screen and (min-width: 768px ) {
+@media screen and (max-width: 580px) {
 
-    span#burguer{
-        display: none;
-    }
+  header,
+  header > nav {
+    display: flex;
+    flex-flow: column nowrap;
+  }
 
-    menu{
-        display: block;
-    }
+  header > h1 {
+    flex-basis: 50px;
+  }
 
-    menu l1{
-        display: inline-block;
-    }
-
-    main {
-        width: 768px;
-    }
+  header > nav > a {
+    width: 90vw;
+  }
 }
