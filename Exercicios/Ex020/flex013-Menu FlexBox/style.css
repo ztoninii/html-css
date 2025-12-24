@@ -26,12 +26,12 @@ header{
 }
 
 header > h1 {
-    border: 1px dotted black;
+    
     flex: 0 0 200px;
 }
 
 nav{
-    border: 1px dotted black;
+    
 
     display: flex;
     flex-flow: row wrap;
@@ -63,8 +63,21 @@ main{
 }
 
 
-@media screen and (min-width: 600px) {
-    body{
-        background-color: ;
+@media screen and (max-width: 550px) {
+    
+    
+    header, header > nav {
+    display: flex;
+    flex-flow: column nowrap;
     }
+
+
+    header > h1 {
+        flex-basis: 50px;
+    }
+
+    header > nav > a {
+        width: 90vw;
+    }
+
 }
